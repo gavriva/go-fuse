@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/zipfs"
+	"github.com/gavriva/go-fuse/fuse/nodefs"
+	"github.com/gavriva/go-fuse/zipfs"
 )
 
 func main() {

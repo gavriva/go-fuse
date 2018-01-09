@@ -9,10 +9,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
-	"github.com/hanwen/go-fuse/internal/testutil"
+	"github.com/gavriva/go-fuse/fuse"
+	"github.com/gavriva/go-fuse/fuse/nodefs"
+	"github.com/gavriva/go-fuse/fuse/pathfs"
+	"github.com/gavriva/go-fuse/internal/testutil"
 )
 
 type DefaultReadFS struct {

@@ -14,7 +14,7 @@ import (
 	"testing"
 )
 
-// See https://github.com/hanwen/go-fuse/issues/170
+// See https://github.com/gavriva/go-fuse/issues/170
 func disabledTestFlock(t *testing.T) {
 	cmd, err := exec.LookPath("flock")
 	if err != nil {

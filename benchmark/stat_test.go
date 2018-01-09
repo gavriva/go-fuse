@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
-	"github.com/hanwen/go-fuse/internal/testutil"
+	"github.com/gavriva/go-fuse/fuse/nodefs"
+	"github.com/gavriva/go-fuse/fuse/pathfs"
+	"github.com/gavriva/go-fuse/internal/testutil"
 )
 
 func setupFs(fs pathfs.FileSystem, N int) (string, func()) {

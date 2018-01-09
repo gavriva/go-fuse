@@ -15,7 +15,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/gavriva/go-fuse/fuse"
 )
 
 // Tests should set to true.

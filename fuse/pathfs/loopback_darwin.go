@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/gavriva/go-fuse/fuse"
 )
 
 const _UTIME_NOW = ((1 << 30) - 1)

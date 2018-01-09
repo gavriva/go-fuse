@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
+	"github.com/gavriva/go-fuse/fuse"
+	"github.com/gavriva/go-fuse/fuse/nodefs"
 )
 
 // refCountedInode is used in clientInodeMap. The reference count is used to decide

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/gavriva/go-fuse/fuse"
 )
 
 const testTtl = 100 * time.Millisecond
