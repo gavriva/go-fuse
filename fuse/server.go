@@ -9,7 +9,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"runtime"
 	"strings"
 	"sync"
 	"syscall"
@@ -159,7 +158,7 @@ func NewServer(fs RawFileSystem, mountPoint string, opts *MountOptions) (*Server
 		// OSX has races when multiple routines read from the
 		// FUSE device: on unmount, sometime some reads do not
 		// error-out, meaning that unmount will hang.
-		singleReader: runtime.GOOS == "darwin",
+		singleReader: true, // runtime.GOOS == "darwin",
 		ready:        make(chan error, 1),
 	}
 	ms.reqPool.New = func() interface{} { return new(request) }
